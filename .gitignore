@@ -39,3 +39,7 @@ Thumbs.db
 # Local/generated helper artifacts not needed for source maintenance
 .font-extract/
 *.zip
+
+# Server-side render build output
+.ssr/
+lighthouse-report.json

@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node ./node_modules/vite/bin/vite.js build",
-    "preview": "vite preview"
+    "build": "node ./node_modules/vite/bin/vite.js build && node ./node_modules/vite/bin/vite.js build --ssr src/App.tsx --outDir .ssr && node ./scripts/prerender.mjs",
+    "preview": "vite preview",
+    "build:client": "node ./node_modules/vite/bin/vite.js build",
+    "build:ssr": "node ./node_modules/vite/bin/vite.js build --ssr src/App.tsx --outDir .ssr"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^6.0.2",
