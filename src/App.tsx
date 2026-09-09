@@ -6,7 +6,7 @@ const expertise = [
   ["01", "Transformatie & groei", "Verandering richting geven en realiseren, met leiderschap, draagvlak, ritme en duidelijke prioriteiten."],
   ["02", "Strategie & sturing", "Ambitie vertalen naar scherpe keuzes, een werkbare roadmap en een beslissingsritme dat uitvoering versnelt."],
   ["03", "AI-adoptie & processen", "AI-kansen selecteren, teams praktisch opleiden en waardevolle toepassingen duurzaam in processen verankeren."],
-  ["04", "Fractional leadership", "Senior leiderschap als fractional CFO, fractional CEO of interim executive — flexibel en rechtstreeks betrokken."],
+  ["04", "Fractional CEO & COO", "Senior leiderschap als fractional CEO, fractional COO, fractional CFO of interim executive — flexibel en rechtstreeks betrokken."],
   ["05", "Finance & performance", "Cashflow, KPI’s en rapportering omzetten in transparantie, betere beslissingen en aantoonbare voortgang."],
   ["06", "Boardroom partnership", "Discrete, onafhankelijke sparring voor ondernemers en management tijdens groei, verandering en moeilijke keuzes."],
 ];
@@ -21,7 +21,7 @@ const steps = [
 const cases = [
   ["Transformatie & strategie", "Van ambitie naar uitvoerbare verandering.", "Strategie, leiderschap en uitvoering komen samen in een heldere roadmap met eigenaarschap en zichtbare voortgang."],
   ["AI-adoptie", "Van losse AI-tools naar praktische bedrijfswaarde.", "We prioriteren relevante toepassingen, versterken AI-vaardigheden en verankeren wat werkt in teams en processen."],
-  ["Fractional leadership", "Senior leiderschap wanneer richting én uitvoering tellen.", "Een fractional CFO, fractional CEO of interim executive stapt mee in, brengt focus en versnelt cruciale beslissingen."],
+  ["Fractional CEO & COO", "Senior leiderschap wanneer richting én uitvoering tellen.", "Een fractional CEO, fractional COO, fractional CFO of interim executive stapt mee in, brengt focus en versnelt cruciale beslissingen."],
 ];
 
 export default function Home() {
@@ -84,10 +84,10 @@ export default function Home() {
       <main id="top">
         <section className="hero">
           <div className="hero-grid" aria-hidden="true" />
-          <div className="eyebrow reveal">Transformation <i /> Strategy <i /> AI adoption <i /> Fractional CFO <i /> Fractional CEO</div>
+          <div className="eyebrow reveal">Transformation <i /> Strategy <i /> AI adoption <i /> Fractional CEO <i /> Fractional COO</div>
           <h1 className="reveal">Helderheid<br />brengt <em>beweging.</em></h1>
           <div className="hero-bottom reveal">
-            <p>Transformatie, strategie en praktische AI-adoptie, versterkt met fractional leiderschap wanneer uw organisatie het nodig heeft.</p>
+            <p>Transformatie, strategie en praktische AI-adoptie, versterkt met fractional CEO, fractional COO en fractional CFO leiderschap wanneer uw organisatie het nodig heeft.</p>
             <div className="actions">
               <a className="button primary" href="#contact">Bespreek uw uitdaging <span>↗</span></a>
               <a className="button ghost" href="#expertise">Ontdek onze expertise <span>↓</span></a>
@@ -98,7 +98,7 @@ export default function Home() {
         </section>
 
         <div className="trust" aria-label="Kernwaarden">
-          {["Transformatie & strategie", "Praktische AI-adoptie", "Fractional CFO & CEO", "Finance & performance", "Discrete samenwerking"].map((item) => <span key={item}>{item}</span>)}
+          {["Transformatie & strategie", "Praktische AI-adoptie", "Fractional CEO & COO", "Fractional CFO", "Discrete samenwerking"].map((item) => <span key={item}>{item}</span>)}
         </div>
 
         <section className="ai-section" id="ai">
@@ -169,7 +169,7 @@ export default function Home() {
             <div className="engagement-options">
               <article><span>01</span><div><h4>Transformatiesprint</h4><p>Van uitdaging naar scherpe keuzes, een gedragen roadmap en een concreet eerste uitvoeringsritme.</p><small>Voor richting en beweging</small></div></article>
               <article><span>02</span><div><h4>AI-adoptietraject</h4><p>Van AI-awareness en use cases naar praktische toepassingen, werkafspraken en verankering in uw team.</p><small>Voor leren en waarde realiseren</small></div></article>
-              <article><span>03</span><div><h4>Fractional leadership</h4><p>Senior verantwoordelijkheid als fractional CFO, fractional CEO of interim executive, rechtstreeks betrokken bij uitvoering.</p><small>Voor slagkracht en continuïteit</small></div></article>
+              <article><span>03</span><div><h4>Fractional leadership</h4><p>Senior verantwoordelijkheid als fractional CEO, fractional COO, fractional CFO of interim executive, rechtstreeks betrokken bij uitvoering.</p><small>Voor slagkracht en continuïteit</small></div></article>
             </div>
           </div>
         </section>
@@ -185,7 +185,7 @@ export default function Home() {
             <blockquote>“Samen bouwen we aan een veerkrachtige organisatie die klaar is voor morgen.”</blockquote>
             <p>Transformatie, strategische helderheid, praktische AI-adoptie en executive daadkracht — naast ondernemer en management.</p>
             <h3>Greg De Vadder</h3>
-            <ul><li>Transformation &amp; strategy leader</li><li>Fractional CFO &amp; CEO</li><li>AI-adoptie &amp; implementatie</li><li>Finance &amp; performance</li><li>Executive MBA</li></ul>
+            <ul><li>Transformation &amp; strategy leader</li><li>Fractional CEO &amp; COO</li><li>Fractional CFO &amp; finance leadership</li><li>AI-adoptie &amp; implementatie</li><li>Executive MBA</li></ul>
           </div>
         </section>
 
