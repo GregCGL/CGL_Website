@@ -176,7 +176,9 @@ export default function Home() {
 
         <section className="about-section" id="over">
           <div className="portrait reveal">
-            <img src="/greg-de-vadder.jpg" alt="Greg De Vadder, CGL Change & Growth Leadership" />
+            <div className="portrait-ring">
+              <img src="/greg-de-vadder-linkedin.png" alt="Greg De Vadder, CGL Change & Growth Leadership" />
+            </div>
             <span>Greg De Vadder<br />CGL</span>
           </div>
           <div className="about-copy reveal">
