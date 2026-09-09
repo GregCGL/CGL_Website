@@ -175,7 +175,10 @@ export default function Home() {
         </section>
 
         <section className="about-section" id="over">
-          <div className="portrait reveal"><div className="portrait-monogram">GDV</div><span>Profielbeeld<br />Greg De Vadder</span></div>
+          <div className="portrait reveal">
+            <img src="/greg-de-vadder.jpg" alt="Greg De Vadder, CGL Change & Growth Leadership" />
+            <span>Greg De Vadder<br />CGL</span>
+          </div>
           <div className="about-copy reveal">
             <span className="kicker gold">05 — Over CGL</span>
             <blockquote>“Samen bouwen we aan een veerkrachtige organisatie die klaar is voor morgen.”</blockquote>
